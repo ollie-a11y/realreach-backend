@@ -46,7 +46,7 @@ Extract and return as JSON:
         'anthropic-version': '2023-06-01',
       },
       body: JSON.stringify({
-        model: 'claude-opus-4-20250805',
+       model: 'claude-opus-4-20250514',
         max_tokens: 400,
         messages: [{ role: 'user', content: prompt }],
       }),
